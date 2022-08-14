@@ -1,6 +1,11 @@
 {
     "cSpell.words": [
         "craigslist",
+        "maryslist",
+        "postings",
         "searchbar"
+    ],
+    "cSpell.ignoreWords": [
+        "postings"
     ]
 }

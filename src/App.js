@@ -8,7 +8,7 @@ import Directory from './Components/Directory';
 import Searchbar from './Components/Searchbar';
 import Sidebar from './Components/Sidebar';
 
-function App(){
+const App = () => {
   return (
     <div>
       <h1>maryslist</h1>

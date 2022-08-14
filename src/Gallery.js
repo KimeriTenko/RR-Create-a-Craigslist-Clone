@@ -1,9 +1,13 @@
+import Posting from './Posting'
 
-
-function Gallery(){
+const Gallery = (props) => {
     return (
-      <h1>Gallery</h1>
+        <div className="gallery">
+            {props.postings.map((p, i) => {
+                return <Posting posting={p} key={i} />
+            })}
+        </div>
     )
-  }
+}
 
   export default Gallery

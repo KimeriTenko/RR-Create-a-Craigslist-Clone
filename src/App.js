@@ -1,14 +1,22 @@
 // Import data
-import React from 'react';
+import {postings} from './postings'
 // Import components
 import './App.css';
+import React from 'react';
+import Gallery from './Components/Gallery';
+import Directory from './Components/Directory';
+import Searchbar from './Components/Searchbar';
+import Sidebar from './Components/Sidebar';
 
 function App(){
   return (
     <div>
-      <h1>craigslist</h1>
+      <h1>maryslist</h1>
       <div className="App">
-        {<Gallery />}
+        <Searchbar/>
+        <Directory/>
+        <Sidebar/>
+        <Gallery postings={postings}/>
       </div>
     </div>
   );
